@@ -1,0 +1,152 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+}
+.bo{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #272727;
+    padding: 3px;
+
+}
+.card-image .card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #272727;
+
+}
+.card{
+    border-radius: 25px;
+    background-color: white;
+    width: 320px;
+    padding-top: 0;
+}
+.slide-content{
+    margin: 0 40px ;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px ;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+.description{
+    font-size: 14px;
+    color: #272727;
+    text-align: center;
+
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: #272727;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.button:hover{
+    background: black;
+
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: gray;
+    padding: 40px 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+}
+.container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.container h1::after{
+    content: '';
+    background: #272727;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.r{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap:30px;
+}
+footer{
+    background-color: #272727;
+    box-shadow: 1px 1px 20px 1px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    margin: 20px;
+}
+
+
+
+
+
+
+

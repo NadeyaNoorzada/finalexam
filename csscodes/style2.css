@@ -1,0 +1,36 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+}
+.container{
+    padding-top: 20px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 1px 20px 1px rgb(252, 250, 250);
+
+}
+body{
+    background-color: black;
+}
+.lyric{
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+
+    position: relative;
+    justify-content:center;
+    text-align:center;
+}
+footer{
+    background-color: #272727;
+    box-shadow: 1px 1px 20px 1px rgb(245, 243, 243);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    margin: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+
+}
